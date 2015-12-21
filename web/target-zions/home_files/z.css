@@ -1,0 +1,28 @@
+.login-tooltip {
+	position: absolute;
+	/* top: 93px; */
+	z-index: 2000;
+	width: 225px;
+    /* display: block; */
+}
+.login-tooltip label {
+	background: #005197 url(/images/icons/important.png) no-repeat 12px 8px;
+	border-radius: 5px;
+	color: #fff;
+	content: attr(title);
+	/* left: 0px; */
+	padding: 9px 0px 9px 44px;
+	/* position: absolute; */
+	z-index: 98;
+	/* right: 0;
+	top: 150px; */
+	box-shadow: 2px 3px 5px rgba(0,0,0,.8);
+	font-family: 'MuseoSans500';
+	font-size: 13px;
+	display: block;
+	margin-top: 10px;
+}
+
+.input-container input.error {
+    border: 1px solid red;
+}
