@@ -1351,8 +1351,16 @@ sup{display:inline-block;font:9px/1 "Avenir Next LT W01 Demi",Arial,sans-serif;f
 .descriptor sup{margin-top:2px;}
 sub{font-size:7px;font-size:.50rem;vertical-align:bottom;line-height:12px;line-height:.8571rem;}
 .pipe{display:inline-block;padding:0 10px;color:#CCC;}
-ul{margin:0 0 18px 1.5em;}
-ol{list-style-type:none;counter-reset:li;margin:0 0 18px 1.8em;}
+ul{
+	margin: 0 0 18px 1.5em;
+    list-style: none;
+    margin-left: 0px;
+}
+ol{
+	margin: 0 0 18px 1.5em;
+    list-style: none;
+    margin-left: 0px;
+}
 li{margin-bottom:5px;}
 ol>li:before{content:counter(li);counter-increment:li;float:left;clear:both;margin-left:-2em;width:1.3em;text-align:right;font-family:"Avenir Next LT W01 Demi",Arial,sans-serif;}
 ol>li:after{content:"";display:table;line-height:0;clear:both;}
